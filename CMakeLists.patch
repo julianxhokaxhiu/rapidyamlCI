@@ -1,0 +1,10 @@
+diff --git a/CMakeLists.txt b/CMakeLists.txt
+index 63f22b2..4ba03da 100644
+--- a/CMakeLists.txt
++++ b/CMakeLists.txt
+@@ -1,4 +1,5 @@
+ cmake_minimum_required(VERSION 3.9)
++cmake_policy(SET CMP0091 NEW)
+ project(ryml)
+ 
+ include(./ext/c4core/cmake/c4Project.cmake)
